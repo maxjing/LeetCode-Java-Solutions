@@ -27,3 +27,22 @@ class Solution {
         return list;
     }
 }
+
+class Solution {
+    public List<Integer> postorder(Node root) {
+        List<Integer> list = new ArrayList<>();
+        Stack<Node> stack = new Stack<>();
+        stack.add(root);
+        if(root == null) return list;
+        
+        while(!stack.isEmpty()){
+            root = stack.pop();
+            list.add(root.val);
+            for(Node node : root.children){
+                stack.add(node);
+            }
+        }
+        Collections.reverse(list);
+        return list;
+    }
+}
