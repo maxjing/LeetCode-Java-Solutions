@@ -29,10 +29,8 @@ public ListNode middleNode(ListNode head) {
         count++;
     }
     int middle = count/2;
-    int step = 0;
-    while(step < middle){
+    while(middle-- > 0){
         dummy = dummy.next;
-        step++;
     }
     return dummy.next;
 }
