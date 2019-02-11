@@ -12,8 +12,7 @@ public static int maxDepth(Node root) {
     while(!q.isEmpty()){
         depth ++;
         for(int i = 0; i < q.size() - 1;i++){
-            Node node = q.peek();
-            q.remove();
+            Node node = q.poll();
             int n = node.children.size();
             for(int j = 0; j < n; j++){
                 q.add(node.children.get(j));
