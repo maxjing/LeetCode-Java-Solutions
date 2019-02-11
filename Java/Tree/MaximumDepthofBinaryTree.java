@@ -33,6 +33,7 @@ public int maxDepth(TreeNode root) {
             if(node.right != null){
                 q.add(node.right);
             }
+            n--;
         }
     }
     return depth;
