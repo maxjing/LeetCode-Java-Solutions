@@ -18,7 +18,11 @@ number of digits of n will be the h
 
 #### note
 
+loop 0 ~ 9, dfs 每次添加进res后， loop i = 0 ~ 9 每次 curr * 10 确保 1 然后 10， 2 之后是20 21.。。。
 
+**注意**
+
+两次 boundary check 外层dfs 当前是否大于n, 内层dfs 当前i * 10 + i是否大于n
 
 ---
 
