@@ -66,6 +66,15 @@ class Solution {
 
 因为只有一个peak 所以只要找到比后面的数大的数即可
 
+```
+1 2 1 3 5 6 4
+0: low = 0, high = 6
+1: mid = 3, nums[mid] = 3 < nums[mid+1] = 5, low = 4, high = 6
+2. mid = 4 + (6 -4)/2 = 5, nums[mid] = 6 > nums[mid + 1] = 4, low = 6, high = 6
+```
+
+
+
 ---
 
 #### code

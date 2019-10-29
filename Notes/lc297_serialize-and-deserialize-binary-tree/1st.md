@@ -132,7 +132,6 @@ public class Codec {
         for(String val: array){
             queue.add(val);
         }
-         
         return deserializeHelper(queue);
     }
      

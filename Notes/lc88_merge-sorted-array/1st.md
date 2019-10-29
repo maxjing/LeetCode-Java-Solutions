@@ -8,6 +8,18 @@
 
 void no extra space
 
+```
+nums1 = [1, 2, 3, 0, 0, 0]
+nums2 = [2, 5, 6]
+
+1: nums1[i] = 3, nums2[j] = 6, nums1[5] = 6
+2: nums1[i] = 3, nums2[j] = 5, nums1[4] = 5
+3. nums1[i] = 3, nums2[j] = 2, nums1[3] = 3
+4. nums1[i] = 2, nums2[j] = 2, nums1[2] = 2
+```
+
+
+
 ---
 
 #### note
