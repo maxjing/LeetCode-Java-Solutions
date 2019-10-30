@@ -19,3 +19,8 @@ HashMap 是 HashTable 的轻量级实现，他们都完成了Map 接口，主要
 # Java初级面试题
 
 https://www.jianshu.com/p/08153f5678de
+
+Why graphql
+
+* through the **GraphQL** query language, client applications **are** able to reduce, often significantly, the number of network calls they need to make, 
+* and ensure that they only **are** retrieving the data they need,One of the main **benefits** is clients have the ability to dictate exactly what they need from the server, and receive that data in a predictable way.
